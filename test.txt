@@ -1,0 +1,689 @@
+University of Colorado Boulder Schedule of Classes for Spring 2020 
+College of Arts and Sciences 
+Woodbury 109 
+303-492-7885 
+http://artsandsciences.colorado.edu/ 
+Anthropology 
+Hale 350 
+303-492-2547 
+http://www.colorado.edu/Anthropology/ 
+Undergraduate 
+DEPT 
+COURSE 
+SECTION 
+SESS 
+CLASS 
+CREDITS 
+COURSE TITLE 
+CLASS 
+MEETING TIME 
+DAYS 
+BUILDING ROOM # 
+INSTRUCTOR NAME 
+MAX 
+CAMPUS 
+SUBJECT 
+NUMBER 
+N NBR COMPONENT 
+ENR 
+ANTH 
+1120 
+010 B 24637 
+3 Pueblo Indians Southwest 
+LEC 
+10:00 AM - 10:50 AM 
+MW HALE 230 
+Ortman,Scott Graham 
+150 Main Campus 
+ANTH 
+1120 
+011 B 24638 
+3 Pueblo Indians Southwest 
+REC 05:00 PM - 05:50 PM 
+W CLRE 209 
+Ortman,Scott Graham 
+50 Main Campus 
+ANTH 
+1120 
+012 B 24639 
+3 Pueblo Indians Southwest 
+REC 03:00 PM - 03:50 PM 
+W CLUB 4 
+Ortman,Scott Graham 
+50 Main Campus 
+ANTH 
+1120 
+013 B 24640 
+3 Pueblo Indians Southwest 
+REC 08:00 AM - 08:50 AM 
+F CLRE 209 
+Ortman,Scott Graham 
+50 Main Campus 
+ANTH 
+1140 
+100 B 31983 
+3 Expl/Nonwest Cult/Maya 
+LEC 
+11:00 AM - 11:50 AM 
+MW MCOL W100 
+Kurnick,Sarah Jill 
+160 Main Campus 
+ANTH 
+1145 
+010 B 25316 
+3 Explr Nonwest Cult/Aztec 
+LEC 
+01:00 PM - 01:50 PM 
+MW MCOL W100 
+Gutierrez,Gerardo 
+100 Main Campus 
+ANTH 
+1155 
+040 B 25314 
+3 Expl Global Cult Diversity 
+LEC 
+11:00 AM - 11:50 AM 
+MWF 
+HALE 260 
+Jones,Carla Mae 
+40 Main Campus 
+ANTH 
+1170 
+200 B 22710 
+3 Culture, Gender, Film 
+LEC 
+02:00 PM - 02:50 PM 
+TTH 
+MUEN E050 
+Hammons,Christian Stanford 
+350 Main Campus 
+ANTH 
+2020 
+001 B 18366 
+3 Intro to Bio Anthropology 2 
+LEC 
+09:30 AM - 10:45 AM 
+TTH 
+CHEM 140 
+Leigh,Steven Robert 
+400 Main Campus 
+ANTH 
+2040 
+001 B 19589 
+1 Lab in Bio Anthropology 2 
+MLS 
+10:00 AM - 11:50 AM 
+T HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+002 B 19617 
+1 Lab in Bio Anthropology 2 
+MLS 
+12:00 PM - 01:50 PM 
+T HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+003 B 19618 
+1 Lab in Bio Anthropology 2 
+MLS 
+02:00 PM - 03:50 PM 
+T HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+004 B 19619 
+1 Lab in Bio Anthropology 2 
+MLS 
+04:00 PM - 05:50 PM 
+T HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+005 B 19620 
+1 Lab in Bio Anthropology 2 
+MLS 
+09:00 AM - 10:50 AM 
+W HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+006 B 19621 
+1 Lab in Bio Anthropology 2 
+MLS 
+11:00 AM - 12:50 PM 
+W HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+007 B 19622 
+1 Lab in Bio Anthropology 2 
+MLS 
+01:00 PM - 02:50 PM 
+W HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+008 B 19623 
+1 Lab in Bio Anthropology 2 
+MLS 
+03:00 PM - 04:50 PM 
+W HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+009 B 19624 
+1 Lab in Bio Anthropology 2 
+MLS 
+05:00 PM - 06:50 PM 
+W HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+010 B 19625 
+1 Lab in Bio Anthropology 2 
+MLS 
+10:00 AM - 11:50 AM 
+TH HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+011 B 19626 
+1 Lab in Bio Anthropology 2 
+MLS 
+12:00 PM - 01:50 PM 
+TH HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+012 B 19627 
+1 Lab in Bio Anthropology 2 
+MLS 
+02:00 PM - 03:50 PM 
+TH HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+015 B 19628 
+1 Lab in Bio Anthropology 2 
+MLS 
+12:00 PM - 01:50 PM 
+F HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+016 B 19629 
+1 Lab in Bio Anthropology 2 
+MLS 
+02:00 PM - 03:50 PM 
+F HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2100 
+010 B 18351 
+3 Intro to Cultural Anthropology 
+LEC 
+12:00 PM - 12:50 PM 
+MW HUMN 150 
+Goldfarb,Kathryn 
+155 Main Campus 
+ANTH 
+2100 
+880 B 24429 
+3 Intro to Cultural Anthropology 
+LEC 
+11:00 AM - 11:50 AM 
+MWF 
+LIBR N424A 
+Fischer,Katherine Virginia 
+17 Main Campus 
+ANTH 
+2200 
+010 B 18367 
+3 The Archaeology of Human Hist 
+LEC 
+11:00 AM - 12:15 PM 
+TTH 
+HALE 270 
+Bamforth,Douglas 
+160 Main Campus 
+ANTH 
+2525 
+100 B 31994 
+3 Environmental Anthropology 
+LEC 
+12:00 PM - 12:50 PM 
+MW HLMS 252 
+Jacka,Jerry Keith 
+125 Main Campus 
+ANTH 
+3010 
+001 B 31991 
+3 The Human Animal 
+LEC 
+12:30 PM - 01:45 PM 
+TTH 
+HALE 230 
+Covert,Herbert 
+88 Main Campus 
+ANTH 
+3119 
+001 B 24673 
+3 The Archaeology of Death 
+LEC 
+03:30 PM - 04:45 PM 
+TTH 
+CLRE 104 
+Baxter,Leigh Erin 
+17 Main Campus 
+ANTH 
+3119 
+002 B 24674 
+3 The Archaeology of Death 
+LEC 
+05:00 PM - 06:15 PM 
+TTH 
+CLRE 104 
+Baxter,Leigh Erin 
+17 Main Campus 
+ANTH 
+4020 
+004 B 25406 
+3-6 
+Explorations in Anthropology 
+LEC 
+03:00 PM - 04:15 PM 
+MW CLUB 13 
+Gutierrez,Gerardo 
+40 Main Campus 
+ANTH 
+4125 
+100 B 32007 
+3 Primate Life History 
+LEC 
+12:30 PM - 01:45 PM 
+TTH 
+HALE 455 
+Sauther,Michelle Linda 
+5 Main Campus 
+ANTH 
+4180 
+001 B 25407 
+3 Anth Prspect/Contemp Iss 
+LEC 
+05:00 PM - 06:15 PM 
+TTH 
+HALE 240 
+DeLuca,Laura Marie 
+30 Main Campus 
+Page 1 of 180 
+Spring 2020 
+University of Colorado Boulder 
+    
+                                        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+              
+                          
+           University of Colorado Boulder Schedule of Classes for Spring 2020 
+College of Arts and Sciences 
+Woodbury 109 
+303-492-7885 
+http://artsandsciences.colorado.edu/ 
+Anthropology 
+Hale 350 
+303-492-2547 
+http://www.colorado.edu/Anthropology/ 
+Undergraduate 
+DEPT 
+COURSE 
+SECTION 
+SESS 
+CLASS 
+CREDITS 
+COURSE TITLE 
+CLASS 
+MEETING TIME 
+DAYS 
+BUILDING ROOM # 
+INSTRUCTOR NAME 
+MAX 
+CAMPUS 
+SUBJECT 
+NUMBER 
+N NBR COMPONENT 
+ENR 
+ANTH 
+1120 
+010 B 24637 
+3 Pueblo Indians Southwest 
+LEC 
+10:00 AM - 10:50 AM 
+MW HALE 230 
+Ortman,Scott Graham 
+150 Main Campus 
+ANTH 
+1120 
+011 B 24638 
+3 Pueblo Indians Southwest 
+REC 05:00 PM - 05:50 PM 
+W CLRE 209 
+Ortman,Scott Graham 
+50 Main Campus 
+ANTH 
+1120 
+012 B 24639 
+3 Pueblo Indians Southwest 
+REC 03:00 PM - 03:50 PM 
+W CLUB 4 
+Ortman,Scott Graham 
+50 Main Campus 
+ANTH 
+1120 
+013 B 24640 
+3 Pueblo Indians Southwest 
+REC 08:00 AM - 08:50 AM 
+F CLRE 209 
+Ortman,Scott Graham 
+50 Main Campus 
+ANTH 
+1140 
+100 B 31983 
+3 Expl/Nonwest Cult/Maya 
+LEC 
+11:00 AM - 11:50 AM 
+MW MCOL W100 
+Kurnick,Sarah Jill 
+160 Main Campus 
+ANTH 
+1145 
+010 B 25316 
+3 Explr Nonwest Cult/Aztec 
+LEC 
+01:00 PM - 01:50 PM 
+MW MCOL W100 
+Gutierrez,Gerardo 
+100 Main Campus 
+ANTH 
+1155 
+040 B 25314 
+3 Expl Global Cult Diversity 
+LEC 
+11:00 AM - 11:50 AM 
+MWF 
+HALE 260 
+Jones,Carla Mae 
+40 Main Campus 
+ANTH 
+1170 
+200 B 22710 
+3 Culture, Gender, Film 
+LEC 
+02:00 PM - 02:50 PM 
+TTH 
+MUEN E050 
+Hammons,Christian Stanford 
+350 Main Campus 
+ANTH 
+2020 
+001 B 18366 
+3 Intro to Bio Anthropology 2 
+LEC 
+09:30 AM - 10:45 AM 
+TTH 
+CHEM 140 
+Leigh,Steven Robert 
+400 Main Campus 
+ANTH 
+2040 
+001 B 19589 
+1 Lab in Bio Anthropology 2 
+MLS 
+10:00 AM - 11:50 AM 
+T HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+002 B 19617 
+1 Lab in Bio Anthropology 2 
+MLS 
+12:00 PM - 01:50 PM 
+T HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+003 B 19618 
+1 Lab in Bio Anthropology 2 
+MLS 
+02:00 PM - 03:50 PM 
+T HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+004 B 19619 
+1 Lab in Bio Anthropology 2 
+MLS 
+04:00 PM - 05:50 PM 
+T HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+005 B 19620 
+1 Lab in Bio Anthropology 2 
+MLS 
+09:00 AM - 10:50 AM 
+W HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+006 B 19621 
+1 Lab in Bio Anthropology 2 
+MLS 
+11:00 AM - 12:50 PM 
+W HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+007 B 19622 
+1 Lab in Bio Anthropology 2 
+MLS 
+01:00 PM - 02:50 PM 
+W HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+008 B 19623 
+1 Lab in Bio Anthropology 2 
+MLS 
+03:00 PM - 04:50 PM 
+W HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+009 B 19624 
+1 Lab in Bio Anthropology 2 
+MLS 
+05:00 PM - 06:50 PM 
+W HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+010 B 19625 
+1 Lab in Bio Anthropology 2 
+MLS 
+10:00 AM - 11:50 AM 
+TH HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+011 B 19626 
+1 Lab in Bio Anthropology 2 
+MLS 
+12:00 PM - 01:50 PM 
+TH HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+012 B 19627 
+1 Lab in Bio Anthropology 2 
+MLS 
+02:00 PM - 03:50 PM 
+TH HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+015 B 19628 
+1 Lab in Bio Anthropology 2 
+MLS 
+12:00 PM - 01:50 PM 
+F HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2040 
+016 B 19629 
+1 Lab in Bio Anthropology 2 
+MLS 
+02:00 PM - 03:50 PM 
+F HALE 246 
+Paine,Oliver Charles Colvill 
+16 Main Campus 
+ANTH 
+2100 
+010 B 18351 
+3 Intro to Cultural Anthropology 
+LEC 
+12:00 PM - 12:50 PM 
+MW HUMN 150 
+Goldfarb,Kathryn 
+155 Main Campus 
+ANTH 
+2100 
+880 B 24429 
+3 Intro to Cultural Anthropology 
+LEC 
+11:00 AM - 11:50 AM 
+MWF 
+LIBR N424A 
+Fischer,Katherine Virginia 
+17 Main Campus 
+ANTH 
+2200 
+010 B 18367 
+3 The Archaeology of Human Hist 
+LEC 
+11:00 AM - 12:15 PM 
+TTH 
+HALE 270 
+Bamforth,Douglas 
+160 Main Campus 
+ANTH 
+2525 
+100 B 31994 
+3 Environmental Anthropology 
+LEC 
+12:00 PM - 12:50 PM 
+MW HLMS 252 
+Jacka,Jerry Keith 
+125 Main Campus 
+ANTH 
+3010 
+001 B 31991 
+3 The Human Animal 
+LEC 
+12:30 PM - 01:45 PM 
+TTH 
+HALE 230 
+Covert,Herbert 
+88 Main Campus 
+ANTH 
+3119 
+001 B 24673 
+3 The Archaeology of Death 
+LEC 
+03:30 PM - 04:45 PM 
+TTH 
+CLRE 104 
+Baxter,Leigh Erin 
+17 Main Campus 
+ANTH 
+3119 
+002 B 24674 
+3 The Archaeology of Death 
+LEC 
+05:00 PM - 06:15 PM 
+TTH 
+CLRE 104 
+Baxter,Leigh Erin 
+17 Main Campus 
+ANTH 
+4020 
+004 B 25406 
+3-6 
+Explorations in Anthropology 
+LEC 
+03:00 PM - 04:15 PM 
+MW CLUB 13 
+Gutierrez,Gerardo 
+40 Main Campus 
+ANTH 
+4125 
+100 B 32007 
+3 Primate Life History 
+LEC 
+12:30 PM - 01:45 PM 
+TTH 
+HALE 455 
+Sauther,Michelle Linda 
+5 Main Campus 
+ANTH 
+4180 
+001 B 25407 
+3 Anth Prspect/Contemp Iss 
+LEC 
+05:00 PM - 06:15 PM 
+TTH 
+HALE 240 
+DeLuca,Laura Marie 
+30 Main Campus 
+Page 1 of 180 
+Spring 2020 
+University of Colorado Boulder 
