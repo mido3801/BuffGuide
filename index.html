@@ -5,6 +5,19 @@
     <title>BuffGuide</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="527902776051.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Buff Guide</title>
+	<link rel='icon' href='favicon.ico' type='image/x-icon'/>
+    <!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3CjphaJ3JHXHFK9pgOppj-LQClA1KxIk&callback=initMap" async defer></script>
+
+    <script src="sitejavascript.js"></script>
 
 </head>
 
@@ -17,10 +30,7 @@
         <li><a href="index.html"> Button</li>
 </ul>
 
-    <p><img src="cu_boulder_snow_plead_pidgeon.jpg" alt="CU Logo" class="center"><br></br>
-        <div class="container"><div class="jumbotron jumbotron-fluid"><h1>Welcome</h1></div></div>
-        </p>
+<div id="map" class="center"></div>
+
 </body>
 </html>
-
-
