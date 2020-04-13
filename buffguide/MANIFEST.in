@@ -1,0 +1,5 @@
+include buffguide/schema.sql
+graft buffguide/static
+graft buffguide/templates
+global-exclude *.pyc
+
