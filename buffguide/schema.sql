@@ -6,7 +6,8 @@ DROP TABLE IF Exists ClassLocation;
 
 CREATE TABLE Users(
     userID INTEGER PRIMARY KEY AUTOINCREMENT,
-    userEmail TEXT UNIQUE NOT NULL
+    userName TEXT UNIQUE,
+    userPass TEXT UNIQUE
 );
 
 CREATE TABLE Classes(
@@ -32,8 +33,7 @@ CREATE TABLE Locations(
     locationID INTEGER PRIMARY KEY AUTOINCREMENT,
     locationName TEXT UNIQUE NOT NULL,
     locationLatitude TEXT NOT NULL,
-    locationLongitude TEXT NOT NULL,
-    locationAbbrev TEXT NOT NULL
+    locationLongitude TEXT NOT NULL
 );
 
 CREATE TABLE UserClass(

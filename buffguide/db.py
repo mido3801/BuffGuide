@@ -8,9 +8,11 @@ from buffguide.parse import *
 
 # Called when app is made to add command line commands
 def init_app(app):
+    print("db init")
     app.teardown_appcontext(close_db)
     app.cli.add_command(init_db_command)
     app.cli.add_command(insert_classes_command)
+    app.cli.add_command(insert_locations_command)
 
 
 def init_db():
@@ -57,5 +59,19 @@ def insert_classes_command():
 def insert_classes():
     db = get_db()
     classesFrame = parse.text_to_dataframe()
-    classesFrame.to_sql('Classes', db, if_exists='replace')
+    classesFrame.to_sql('Classes', db, if_exists='replace',index_label="classID")
+    return db
+
+
+@click.command('insert-locations')
+@with_appcontext
+def insert_locations_command():
+    insert_buildings()
+    click.echo('Inserted Locations')
+
+
+def insert_buildings():
+    db = get_db()
+    building_frame = pd.read_csv("BuildingLocations.csv")
+    building_frame.to_sql('Locations',db,if_exists='replace')
     return db

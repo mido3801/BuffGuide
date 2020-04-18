@@ -13,8 +13,25 @@
     <title>{% block title %}{% endblock %} - BuffGuide</title>
 </head>
 <body>
-<div>{{googlemap("test-map",40.0075851,-105.2681357)}}</div>
+<div class="d-flex flex-row">
+    <div>{{googlemap("test-map",40.0075851,-105.2681357)}}</div>
+    <div class="flex-grow-1">
+        <table class="table" id="classesTable">
+            <tr><th>Classes</th></tr>
+        </table>
+    </div>
+
+    {%if g.user%}
+    <div><a class="button" href="/logout">Logout</a></div>
+    {%else%}
+    <div><a class="button" href="/login">Login</a></div>
+    {%endif%}
+    <div><a class="button" href="/register">Register</a></div>
+</div>
+<div><li><span>{{g.user['userName']}}</span></li></div>
+{%block content%}{%endblock%}
 <div class="d-flex flex-column">
+    <form>
    <div class="form-group">
        <select class="form-control" id="se1">
            <option>Select Department</option>
@@ -33,7 +50,9 @@
            <option>Select Course</option>
 
        </select>
+       <button class="btn btn-primary" id="submitClass" type="button">Submit</button>
     </div>
+    </form>
 </div>
 <script src="{{ url_for('static', filename='myScript.js')}}"></script>
 </body>
