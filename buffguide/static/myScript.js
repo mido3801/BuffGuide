@@ -33,7 +33,7 @@ $(document).ready(function(){
             type:'POST',
             success: function(response){
             console.log(response['classBuilding']);
-            $("#classesTable").append('<tr class="classRow" id='+response['classBuilding']+'><td>'+response['classNum']+response['classTitle']+'</td><td>'+response['classBuilding']+response['classRoom']+'</td><td><button id="rcbutton">X</button></td></tr>');
+            $("#classesTable").append('<tr class="classRow" id='+response['classBuilding']+"_"+ response['classID'] +'><td>'+response['classNum']+response['classTitle']+'</td><td>'+response['classBuilding']+response['classRoom']+'</td><td><button id="rcbutton">X</button></td></tr>');
             },
             error:function(error){
             console.log(error);}
@@ -42,7 +42,7 @@ $(document).ready(function(){
 
     $(document).on("click","#rcbutton",(function(){
         var row = $(this).closest('tr');
-        var classID = row.attr('id');
+        var classID = row.attr('id').split("_")[1];
         row.remove();
         $.ajax({
             url:'/remove/'+classID,
@@ -97,7 +97,8 @@ $(document).ready(function(){
 
         if (clickedList.length==2){
         $.ajax({
-            url:'/direct/'+clickedList[0]+'/'+clickedList[1],
+
+            url:'/direct/'+clickedList[0].split("_")[0]+'/'+clickedList[1].split("_")[0],
             type:'POST',
             success:function(response){
             console.log("success");

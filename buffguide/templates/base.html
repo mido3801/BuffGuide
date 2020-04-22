@@ -28,7 +28,7 @@
             <tr><th>Classes</th></tr>
             {% if classes %}
             {%for class in classes%}
-                <tr class = "classRow" id={{class["classBuilding"]}}><td>{{class["classDept"]}}</td><td><button class="rcbutton">X</button></td></tr>
+                <tr class = "classRow" id={{class["classBuilding"]+"_"+class['classID']}}><td>{{class["classDept"]}}</td><td><button class="rcbutton">X</button></td></tr>
             {%endfor%}
             {% endif %}
         </table>
