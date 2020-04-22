@@ -17,7 +17,9 @@ deptList=["ANTH","APPM","ARAB","ARTF","ARTH","ARTS","ARSC","ASIA","ASTR","ATOC",
 
 compList=["REC","LEC","SEM","LAB","PRA","MLS","FLD","THE"]
 
-classInfo = namedtuple("classInfo",["classDept","classCourseNum","classSectionNum","classSessionNum","classClassNum","classCredits","classTitle","classComponent","classStartTime","classEndTime","classDays","classRoom","classInstructor","classMaxEnroll","classCampus"])
+classInfo = namedtuple("classInfo",["classDept","classCourseNum","classSectionNum","classSessionNum","classClassNum","classCredits","classTitle","classComponent","classBuilding","classRoom"])
+
+abbrevList = ["WLAW","EDUC","HLMS","CLRE","MUEN","FLMG","DUAN","MATH","ENVD","ECCR","MCOL","KOBL","CASE","CHEY","KTCH","WVN","STAD","MUS","MCKY","CEDU","ARMR","VAC","ECNT","LIBR","HUMN","GUGG","ECON","ITLL","ECCE","ATLS","EKLC","KCEN","LESS","ECEE","ECST","DLC","ECES","CLUB","CHEM","HALE","IBS","OBSV","BESC","AERO","SEEC","RAMY","THTR","CARL","GOLD","PORT","MKNA","SLHS","BIOT","FRND"]
 
 def init_app(app):
     app.cli.add_command(pdf_to_text_command)
@@ -29,7 +31,7 @@ def pdf_to_text_command():
     pdfToText()
     click.echo('pdf converted')
 
-# TODO
+
 def pdfToText(outfile="classData.txt",filepath="spring2020class_schedule.pdf"):
     with open(outfile,'w') as output:
         with open('temp.txt','w+') as tempFile:
@@ -55,13 +57,6 @@ def grabClassInfo(currLine,dataList):
     y=temp[6]
     attrList[0], attrList[1], attrList[2], attrList[3], attrList[4], attrList[5] = temp[0].strip(), temp[1].strip(), temp[2].strip(), temp[3].strip(), \
                                                                                    int(temp[4]), temp[5].strip()
-
-    temp.pop()
-    tempString=temp.pop()
-    tempString = temp.pop()+tempString
-    attrList[14] = tempString
-    tempString=""
-    attrList[13] = int(temp.pop())
 
     for i in temp[x:]:
         if i in compList:
@@ -110,6 +105,41 @@ def grabClassInfo(currLine,dataList):
     return dataList
 
 
+def grabClassInfo2(line,data_list):
+    attrList = [""]*10
+    temp = line.split(" ")
+
+    attrList[0] = temp[0]
+    attrList[1] = temp[1]
+    attrList[2] = temp[2]
+    attrList[3] = temp[3]
+    attrList[4] = temp[4]
+    attrList[5] = temp[5]
+
+    temp_string = ""
+    temp_x = 6
+
+    while temp[temp_x] not in compList:
+        temp_string = " ".join((temp_string,temp[temp_x]))
+        temp_x+=1
+
+    attrList[6] = temp_string
+    attrList[7] = temp[temp_x]
+
+    while temp[temp_x] not in abbrevList:
+        temp_x+=1
+
+    attrList[8] = temp[temp_x]
+    attrList[9] = temp[temp_x+1]
+    newTuple = classInfo._make(attrList)
+    newOD = newTuple._asdict()
+    newDict = dict(newOD)
+    data_list = data_list.append(newDict)
+    return data_list
+
+
+
+
 def text_to_dataframe(infile="classData.txt"):
 
     dataList = []
@@ -120,7 +150,7 @@ def text_to_dataframe(infile="classData.txt"):
             if not line:
                 break
             try:
-                grabClassInfo(line,dataList)
+                grabClassInfo2(line,dataList)
             except:
                 pass
 

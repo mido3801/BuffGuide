@@ -13,6 +13,7 @@ def init_app(app):
     app.cli.add_command(init_db_command)
     app.cli.add_command(insert_classes_command)
     app.cli.add_command(insert_locations_command)
+    app.cli.add_command(insert_abbrev_command)
 
 
 def init_db():
@@ -74,4 +75,18 @@ def insert_buildings():
     db = get_db()
     building_frame = pd.read_csv("BuildingLocations.csv")
     building_frame.to_sql('Locations',db,if_exists='replace')
+    return db
+
+
+@click.command('insert-abbreviations')
+@with_appcontext
+def insert_abbrev_command():
+    insert_abbrev()
+    click.echo('Inserted Abbrevs')
+
+
+def insert_abbrev():
+    db = get_db()
+    abbrev_frame = pd.read_csv("building_abbrev.csv")
+    abbrev_frame.to_sql('locationAbbrev',db,if_exists='replace')
     return db

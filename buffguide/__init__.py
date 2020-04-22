@@ -1,7 +1,6 @@
 import os
 
 from flask import Flask
-from flask_googlemaps import GoogleMaps
 from flask_login import LoginManager
 from buffguide.user import User
 from oauthlib.oauth2 import WebApplicationClient
@@ -40,9 +39,6 @@ def create_app(test_config=None):
     app.register_blueprint(map.bp)
     app.add_url_rule('/', endpoint='index')
 
-    #from . import auth
-    #app.register_blueprint(auth.bp)
 
-    GoogleMaps(app)
 
     return app

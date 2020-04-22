@@ -1,3 +1,5 @@
+var classCount=0;
+var clickedList = [];
 $(document).ready(function(){
 
     $("#se1").change(function(){
@@ -25,19 +27,102 @@ $(document).ready(function(){
     });
 
     $("#submitClass").click(function(){
-        var classInfo = $("#se3").val();
         var classID = $("#se3").children("option:selected").attr("id");
         $.ajax({
-            url:'/add/'+classInfo+'/'+classID,
+            url:'/add/'+classID,
             type:'POST',
             success: function(response){
-            $("#classesTable").append('<tr><td>'+response['classInfo']+'</td></tr>');
+            console.log(response['classBuilding']);
+            $("#classesTable").append('<tr class="classRow" id='+response['classBuilding']+'><td>'+response['classNum']+response['classTitle']+'</td><td>'+response['classBuilding']+response['classRoom']+'</td><td><button id="rcbutton">X</button></td></tr>');
             },
             error:function(error){
             console.log(error);}
         });
     });
 
-});
+    $(document).on("click","#rcbutton",(function(){
+        var row = $(this).closest('tr');
+        var classID = row.attr('id');
+        row.remove();
+        $.ajax({
+            url:'/remove/'+classID,
+            type:"POST",
+            success: function(response){
+            console.log('class deleted');},
+            error:function(error){
+            console.log(error);}
+            });
+            })
+    );
+
+    $(document).on("click",".classRow",function(){
+            console.log(classCount);
+            if ($(this).hasClass("tanRow")){
+                $(this).removeClass("tanRow");
+                $(this).toggleClass("whiteRow");
+                var index = clickedList.indexOf($(this).attr("id"));
+                clickedList.splice(index,1);
+                console.log(clickedList);
+            }
+            else{
+            if (classCount==0){
+                $(this).removeClass("whiteRow");
+                $(this).toggleClass("tanRow");
+                classCount++;
+                clickedList.push($(this).attr('id'));
+            }
+            else if (classCount==1){
+                $(this).toggleClass("tanRow");
+                $(this).removeClass("whiteRow");
+                clickedList.push($(this).attr('id'));
+                console.log(clickedList);
+                classCount++;
+            }
+            else if (classCount==2){
+                console.log("got here");
+                toRemoveID = clickedList[0];
+                clickedList.shift();
+                console.log(toRemoveID);
+                $("#"+toRemoveID).toggleClass("whiteRow");
+                $('#'+toRemoveID).removeClass("tanRow");
+                clickedList.push($(this).attr('id'));
+                console.log(clickedList);
+                $(this).toggleClass("tanRow");
+                classCount--;
+            }
+        }
+    });
+
+    $("#directionsButton").click(function(){
+
+        if (clickedList.length==2){
+        $.ajax({
+            url:'/direct/'+clickedList[0]+'/'+clickedList[1],
+            type:'POST',
+            success:function(response){
+            console.log("success");
+            console.log(response);
+
+            var path_route = new google.maps.Polyline({
+                path:response,
+                geodesic:true,
+                strokeColor:'#550FFF',
+                map:map
+            });
+
+            },
+            error:function(error){
+            console.log(error);}
+        });
+        }
+        else{
+            console.log("not enough classes");
+        }
+    });
+
+
+    });
+
+
 
 

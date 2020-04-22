@@ -3,6 +3,7 @@ DROP TABLE IF EXISTS Classes;
 DROP TABLE IF Exists Locations;
 DROP TABLE IF Exists UserClass;
 DROP TABLE IF Exists ClassLocation;
+DROP TABLE IF EXISTS locationAbbrev;
 
 CREATE TABLE Users(
     userID INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -17,16 +18,10 @@ CREATE TABLE Classes(
     classSectionNum TEXT NOT NULL,
     classSessionNum TEXT NOT NULL,
     classClassNum INTEGER NOT NULL,
-    classCredits TEXT NOT NULL,
     classTitle TEXT NOT NULL,
     classComponent TEXT NOT NULL,
-    classStartTime TEXT,
-    classEndTime TEXT,
-    classDays TEXT,
-    classRoom TEXT,
-    classInstructor TEXT,
-    classMaxEnroll INTEGER,
-    classCampus TEXT
+    classBuilding TEXT,
+    classRoom TEXT
 );
 
 CREATE TABLE Locations(
@@ -48,4 +43,9 @@ CREATE TABLE ClassLocation(
     locationID INTEGER NOT NULL,
     FOREIGN KEY (classID) REFERENCES Classes(classID),
     FOREIGN KEY (locationID) REFERENCES Locations(locationID)
+);
+
+CREATE TABLE locationAbbrev(
+    abbrev TEXT UNIQUE NOT NULL,
+    locationName TEXT NOT NULL
 );
