@@ -2,7 +2,7 @@ import os
 
 from flask import Flask
 from flask_login import LoginManager
-from buffguide.user import User
+from app.user import User
 from oauthlib.oauth2 import WebApplicationClient
 
 

@@ -1,1 +1,1 @@
-web: gunicorn buffguide:app
+web: gunicorn wsgi:app
