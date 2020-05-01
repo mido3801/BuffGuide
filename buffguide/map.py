@@ -7,10 +7,10 @@ import os
 import json
 import googlemaps
 
-from app.db import get_db
+from buffguide.db import get_db
 import functools
 
-from app.db import get_db
+from buffguide.db import get_db
 
 from werkzeug.security import check_password_hash, generate_password_hash
 

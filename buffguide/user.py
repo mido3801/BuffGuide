@@ -1,6 +1,6 @@
 from flask_login import UserMixin
 
-from app.db import get_db
+from buffguide.db import get_db
 
 class User(UserMixin):
     def __init__(self, id_, name, email):

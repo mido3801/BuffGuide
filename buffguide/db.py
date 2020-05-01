@@ -1,9 +1,9 @@
 import sqlite3
-import app.parse as parse
+import buffguide.parse as parse
 import click
 from flask import current_app, g
 from flask.cli import with_appcontext
-from app.parse import *
+from buffguide.parse import *
 
 
 # Called when app is made to add command line commands
