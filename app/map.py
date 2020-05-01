@@ -23,7 +23,7 @@ def index(user=None,classes=None):
     departments = db.execute('SELECT DISTINCT classDept from Classes').fetchall()
     if g.user:
         userid = g.user['userID']
-        classes = db.execute("SELECT userClass.classID,Classes.classTitle,Classes.classDept,Classes.classID,Classes.classCourseNum from userClass INNER JOIN Classes on userClass.classID=Classes.ClassID WHERE userClass.userID=?", (userid,)).fetchall()
+        classes = db.execute("SELECT userClass.classID,Classes.classTitle,Classes.classDept,Classes.classID,Classes.classCourseNum, Classes.classBuilding, Classes.classRoom from userClass INNER JOIN Classes on userClass.classID=Classes.ClassID WHERE userClass.userID=?", (userid,)).fetchall()
 
     return render_template('base.html', departments=departments, user=user, classes=classes,)
 
@@ -82,8 +82,8 @@ def add_class(classID):
                             (class_id,)).fetchall()
     if g.user:
         this_user = g.user['userID']
-        this_class=classID
-        db.execute('INSERT INTO UserClass (userID,classID) Values (?,?);',(this_user,this_class))
+        this_class_id=classID
+        db.execute('INSERT INTO UserClass (userID,classID) Values (?,?);',(this_user,this_class_id)).fetchone()
         db.commit()
 
     class_title = this_class[0]['classTitle']
